@@ -1,0 +1,1 @@
+In this R script file you find several mini-tweaks which were found useful during our projects.

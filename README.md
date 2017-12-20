@@ -15,11 +15,15 @@ I invite you to have a look at the folders:
 2. **Scotland's House Prices**, a study for predicting House Prices in Scotland
 3. **Feature Selection for Classification**, where you will find two different types of classification problems
 
+Also you could visit the **Cheat Sheet** folder where you will find several mini-tweaks which were proved useful during our projects.
 
 
+In **/coursework** directory you will find all of my relevant coursework for each course during my studies. 
+In directory   
 
-<br> 
-In **/coursework** directory you will find all of my relevant coursework for each course during my studies and later
+	/Coursework / Electives / Information Systems Development / 2. Linked data & Data Analytics /
+   
+   you will find assignments held on linear regression, resampling methods, visualisations **(assignments 5 to 10)**
 
 
 
