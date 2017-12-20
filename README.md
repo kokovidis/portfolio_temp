@@ -31,9 +31,9 @@ And in directory :
 
 you will find a project for integrating a bookstore into an e-commerce platform (using php, mysql, apache)
 
-Last but not least in directory:
+Last but not least, in directory :
 
 	Coursework/Electives/E-government/
 	
-You will find a 35-page report for the creation of an attribute model to describe any greek public body. As the final report is in Greek, a brief synopsis in English is provided.
+you will find a 35-page report for the creation of an attribute model to describe any greek public body. As the final report is in Greek, a brief synopsis in English is provided.
 
