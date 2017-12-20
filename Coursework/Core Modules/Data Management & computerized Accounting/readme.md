@@ -1,0 +1,1 @@
+For this course, we have completed 12 weekly assignments on Access DBMS.
