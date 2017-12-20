@@ -8,7 +8,7 @@ In **/research** projects directory, you will find all of my work during my occu
 
 I invite you to have a look at the folders:  
 
-1. **Machine Learning component**, where you will find my contribution in the equivalent project.
+1. **Machine Learning component**, where you will find my contribution to the equivalent project.
 2. **Scotland's House Prices**, a study for predicting House Prices in Scotland
 3. **Feature Selection for Classification**, where you will find two different types of classification problems
 
@@ -30,4 +30,10 @@ And in directory :
 	Coursework/Electives/E-business/
 
 you will find a project for integrating a bookstore into an e-commerce platform (using php, mysql, apache)
+
+Last but not least in directory:
+
+	Coursework/Electives/E-government/
+	
+You will find a 35-page report for the creation of an attribute model to describe any greek public body. As the final report is in Greek, a brief synopsis in English is provided.
 

@@ -1,1 +1,1 @@
-For the needs of this course, we have create a blog, we managed a CRM system and we created several reports on Windows Excel. All assignments were delivered in Greek.
+For the needs of this course, we created a blog, we managed a CRM system and we created several reports on Windows Excel. All assignments were delivered in Greek.
