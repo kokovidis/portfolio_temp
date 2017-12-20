@@ -17,17 +17,17 @@ I invite you to have a look at the folders:
 
 Also you could visit the **Cheat Sheet** folder where you will find several mini-tweaks which were proved useful during our projects.
 
-
-<<<<<<< HEAD
 In **/coursework** directory you will find all of my relevant coursework for each course during my studies. 
 In directory   
 
 	/Coursework / Electives / Information Systems Development / 2. Linked data & Data Analytics /
    
    you will find assignments held on linear regression, resampling methods, visualisations **(assignments 5 to 10)**
-=======
-In **/coursework** directory you will find all of my relevant coursework for each course during my studies and later
->>>>>>> 3bbc3366f82b972f78559099e78134508c0bc66a
+   
+   
+And in the directory
 
+	Coursework/Electives/E-business/
 
+you will find a project for integrating a bookstore into an e-commerce platform. 
 
