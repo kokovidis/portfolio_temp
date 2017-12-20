@@ -17,8 +17,6 @@ I invite you to have a look at the folders:
 
 
 
-
-<br> 
 In **/coursework** directory you will find all of my relevant coursework for each course during my studies and later
 
 
