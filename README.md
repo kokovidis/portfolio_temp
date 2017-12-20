@@ -17,6 +17,9 @@ I invite you to have a look at the folders:
 
 Also you could visit the **Cheat Sheet** folder where you will find several mini-tweaks which were proved useful during our projects.
 
+
+<hr>
+
 In **/coursework** directory you will find all of my relevant coursework for each course during my studies. 
 In directory   
 
