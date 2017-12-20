@@ -21,14 +21,14 @@ Also you could visit the **Cheat Sheet** folder where you will find several mini
 <hr> </hr>
 
 In **/coursework** directory you will find all of my relevant coursework for each course during my studies. 
-In directory   
+In directory :   
 
 	/Coursework / Electives / Information Systems Development / 2. Linked data & Data Analytics /
    
    you will find assignments held on linear regression, resampling methods, visualisations **(assignments 5 to 10)**
    
    
-And in the directory
+And in directory :
 
 	Coursework/Electives/E-business/
 
