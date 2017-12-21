@@ -6,8 +6,8 @@ Presentation slides and hands-on slides are available upon request.
 
 Our main reference for these presentations were the magnificent book:
 
-An Introduction to Statistical Learning (ISLR)
-with Applications in R 
 
-![ISLR](islr.jpeg) 	   *Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani*
-	
+*James G, Witten D, Hastie T, Tibshirani R. (2017). An Introduction to Statistical Learning (8th ed.). New York: Springer.*
+
+![ISLR](islr.jpeg) 	   
+
