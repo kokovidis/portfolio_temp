@@ -16,6 +16,8 @@ In the **Cheat Sheet** folder you will find several mini-tweaks which were prove
 
 And in **Supervised Learning** folder you will find all the hands-on that I prepared for several supervised methods. 
 
+**Keywords:** adjusted R², bagging, bias-variance trade-off, binary, boolean, boosting, bootstrap, boxplot, error rate, classifier, confusion matrix, cross-validation, k-fold, leave-one-out, curse of dimensionality, decision tree, degrees of freedom, entropy, Gaussian distribution, Gini index, hyperplane, generalised additive model, generalised linear model, hypothesis test, irreducible error, k-nearest neighbours, knot, lasso, least squares, likelihood function, linear discriminant analysis, linear regression, logistic regression, local regression, mean squared error, misclassification error, multicollinearity, natural spline, out-of-bag, one-standard-error-rule, overfitting, positive predictive value, posterior distribution, prediction interval, principal components analysis prior distribution, pruning, quadratic discriminant analysis
+
 
 <hr> </hr>
 
@@ -29,13 +31,15 @@ In directory :
    
 And in directory :
 
-	Coursework/Electives/E-business/
-
-you will find a project for integrating a bookstore into an e-commerce platform (using php, mysql, apache)
-
-Last but not least, in directory :
-
 	Coursework/Electives/E-government/
 	
 you will find a 35-page report for the creation of an attribute model to describe any greek public body. As the final report is in Greek, a brief synopsis in English is provided.
+
+Last but not least, in directory :
+
+
+	Coursework/Electives/E-business/
+you will find a project for integrating a bookstore into an e-commerce platform (using php, mysql, apache)
+
+
 
