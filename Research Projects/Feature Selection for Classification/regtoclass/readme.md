@@ -15,11 +15,11 @@ For train data 75% & test data 25%:
 
 The best model for which yields the lowest error, is a linear model with 32 variables. The estimation accuracy is 56,32%. And the confusion matrix is the following:
 
-|      Lowest accuracy      |  |   Reference  |     |   
-|------------|-----------|-----|-----|---|
-| |           | **0**   | **1**  |   |
-|    **Prediction**         | **0**         | 743 | 575 |   |
-|            |**1**       | 2   | 1   |   |
+|Lowest accuracy|           |Reference|     |   |
+|---------------|-----------|-----    |-----|---|
+|               |           | **0**   |**1**|   |
+|**Prediction** | **0**     | 743     | 575 |   |
+|               |**1**      | 2       | 1   |   |
          
 
 

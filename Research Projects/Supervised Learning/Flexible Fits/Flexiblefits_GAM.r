@@ -1,4 +1,3 @@
- # Chapter 7 Lab: Non-linear Modeling
 #sqrt(mean(gam.m4$residuals^2))
 library(ISLR)
 attach(Wage)
