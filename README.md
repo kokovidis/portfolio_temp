@@ -12,7 +12,9 @@ I invite you to have a look at the folders:
 2. **Scotland's House Prices**, a study for predicting House Prices in Scotland
 3. **Feature Selection for Classification**, where you will find two different types of classification problems
 
-Also you could visit the **Cheat Sheet** folder where you will find several mini-tweaks which were proved useful during our projects.
+In the **Cheat Sheet** folder you will find several mini-tweaks which were proved useful during our projects.
+
+And in **Supervised Learning** folder you will find all the hands-on that I prepared for several supervised methods. 
 
 
 <hr> </hr>
