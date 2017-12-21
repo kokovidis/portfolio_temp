@@ -15,21 +15,25 @@ For train data 75% & test data 25%:
 
 The best model for which yields the lowest error, is a linear model with 32 variables. The estimation accuracy is 56,32%. And the confusion matrix is the following:
 
-|Lowest accuracy|           |Reference|     | |---------------|-----------|-----    |-----|
-|               |           | **0**   |**1**|
-|**Prediction** | **0**     | 743     | 575 |
-|               |**1**      | 2       | 1   |
+|Lowest accuracy|           |Reference|     |   |
+|---------------|-----------|-----    |-----|---|
+|               |           | **0**   |**1**|   |
+|**Prediction** | **0**     | 743     | 575 |   |
+|               |**1**      | 2       | 1   |   |
          
 
 
 However, if we choose the one standard error rule, the number of selected variables is zero (only an intercept) which yields a 56,40% accuracy, a minor change. What is interesting, is its confusion matrix and the model, as it predicts for all areas that they do not belong to category 1. In this case 745 out 1321 test areas are correctly identified. 
 
 
-|      One stantard error rule       |  |   Reference  |     |   
-|------------|-----------|-----|-----|---|
-| |           | **0**   | **1**  |   |
-|    **Prediction**         | **0**         | 745 | 576 |   |
-|            |**1**       | 0   | 0   |   |
+
+|1 SE rule      |           |Reference|     |   |
+|---------------|-----------|-----    |-----|---|
+|               |           | **0**   |**1**|   |
+|**Prediction** | **0**     | 745     | 576 |   |
+|               |**1**      | 0       | 0   |   |
+
+
 
 
 
