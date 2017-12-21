@@ -72,9 +72,9 @@ nrow(test.subset)
 
 # Fitting Regression Trees
 
-  #data cleansing
-  dataset <- na.omit(dataset)
-  
+#data cleansing
+dataset <- na.omit(dataset)
+
 tree.prices=tree(house_prices_mean ~ immun2011+ dwellroom12012+ dwellterraced2012 + breast_2012 + dis2012 + jobs2011, data=dataset)
 summary(tree.prices)
 plot(tree.prices)
@@ -114,62 +114,62 @@ library(randomForest)
 par(mfrow=c(1,2))
 
 
-  #Baggging mtry=p
-  bag.prices=randomForest(house_prices_mean ~ immun2011+ dwellroom12012+ dwellterraced2012 + breast_2012 + dis2012 + jobs2011,data=dataset, subset=train_assign, mtry=6)
-  bag.prices
-  plot(bag.prices)
-  pred.bag = predict(bag.prices,newdata=test.subset)
-  plot(pred.bag, prices.test, pch=8, cex=.3)
-  abline(0,1)
-  sqrt(mean((pred.bag-prices.test)^2))
-  
-  #Random Forest with m=sqrt(p)
-  #sqrt(6) = 2.444, so mtry=2 (if omitted) / with ntree=200 (default=500)
-  ran.prices=randomForest(house_prices_mean ~ immun2011+ dwellroom12012+ dwellterraced2012 + breast_2012 + dis2012 + jobs2011,data=dataset,subset=train_assign, ntree=200, importance=TRUE)
-  pred.ran = predict(ran.prices,newdata=test.subset)
-  sqrt(mean((pred.ran-prices.test)^2))
-  importance(ran.prices)
-  varImpPlot(ran.prices)
-  
-  set.seed(1)
-    #mtry=1 
-    ran1.prices=randomForest(house_prices_mean ~ immun2011+ dwellroom12012+ dwellterraced2012 + breast_2012 + dis2012 + jobs2011,data=dataset,subset=train_assign, mtry=1, ntree=200, importance=TRUE)
-    pred.ran1 = predict(ran1.prices,newdata=test.subset)
-    sqrt(mean((pred.ran1-prices.test)^2))
-    varImpPlot(ran1.prices)
+#Baggging mtry=p
+bag.prices=randomForest(house_prices_mean ~ immun2011+ dwellroom12012+ dwellterraced2012 + breast_2012 + dis2012 + jobs2011,data=dataset, subset=train_assign, mtry=6)
+bag.prices
+plot(bag.prices)
+pred.bag = predict(bag.prices,newdata=test.subset)
+plot(pred.bag, prices.test, pch=8, cex=.3)
+abline(0,1)
+sqrt(mean((pred.bag-prices.test)^2))
+
+#Random Forest with m=sqrt(p)
+#sqrt(6) = 2.444, so mtry=2 (if omitted) / with ntree=200 (default=500)
+ran.prices=randomForest(house_prices_mean ~ immun2011+ dwellroom12012+ dwellterraced2012 + breast_2012 + dis2012 + jobs2011,data=dataset,subset=train_assign, ntree=200, importance=TRUE)
+pred.ran = predict(ran.prices,newdata=test.subset)
+sqrt(mean((pred.ran-prices.test)^2))
+importance(ran.prices)
+varImpPlot(ran.prices)
+
+set.seed(1)
+#mtry=1 
+ran1.prices=randomForest(house_prices_mean ~ immun2011+ dwellroom12012+ dwellterraced2012 + breast_2012 + dis2012 + jobs2011,data=dataset,subset=train_assign, mtry=1, ntree=200, importance=TRUE)
+pred.ran1 = predict(ran1.prices,newdata=test.subset)
+sqrt(mean((pred.ran1-prices.test)^2))
+varImpPlot(ran1.prices)
 
 # Boosting
-  library(gbm)
-    
-    set.seed(1)
-    train_assign <- sample(c(TRUE,FALSE), nrow(dataset) , TRUE, prob=c(0.75,0.25))
-    train.subset <- dataset[train_assign, ]
-    test.subset <-  dataset[!train_assign, ]
-    prices.test <- dataset[!train_assign,"house_prices_mean"]
-      
-  set.seed(1)
-  boost.prices=gbm(house_prices_mean ~ immun2011+ dwellroom12012+ dwellterraced2012 + breast_2012 + dis2012 + jobs2011,data=train.subset,distribution="gaussian",n.trees=5000, interaction.depth=4)
-  summary.gbm(boost.prices)
-  pred.boost=predict(boost.prices,newdata=test.subset,n.trees=5000)
-  sqrt(mean((pred.boost-test.subset$house_prices_mean)^2))
-  plot(boost.prices,i=5)
-  
-  #lambda=0.020λ
-  set.seed(1)
-  boost.prices=gbm(house_prices_mean ~ immun2011+ dwellroom12012+ dwellterraced2012 + breast_2012 + dis2012 + jobs2011,data=train.subset,distribution="gaussian",n.trees=5000,interaction.depth=3, shrinkage = 0.020)
-  summary.gbm(boost.prices)
-  pred.boost=predict(boost.prices,newdata=test.subset,n.trees=5000)
-  sqrt(mean((pred.boost-test.subset$house_prices_mean)^2))
-  
-  #classification - WITH CARET
-  install.packages('caret', dependencies = TRUE)
-  library(caret)
-  
-  set.seed(1)
-  fitControl = trainControl(method="cv", number=10, returnResamp = "all")
-  model.caret = train(cat1~ immun2011+ dwellroom12012+ dwellterraced2012 + breast_2012 + dis2012 + jobs2011, data=train.subset, method="gbm",distribution="bernoulli", trControl=fitControl, verbose=F, tuneGrid=data.frame(.n.trees=2000, .shrinkage=0.01, .interaction.depth=6, .n.minobsinnode=1))
-  
-  mPred = predict(model.caret, test.subset, type="class")  ####cccc
-  #postResample(mPred, test.subset$cat1)
-  confusionMatrix(mPred, test.subset$cat1)
+library(gbm)
+
+set.seed(1)
+train_assign <- sample(c(TRUE,FALSE), nrow(dataset) , TRUE, prob=c(0.75,0.25))
+train.subset <- dataset[train_assign, ]
+test.subset <-  dataset[!train_assign, ]
+prices.test <- dataset[!train_assign,"house_prices_mean"]
+
+set.seed(1)
+boost.prices=gbm(house_prices_mean ~ immun2011+ dwellroom12012+ dwellterraced2012 + breast_2012 + dis2012 + jobs2011,data=train.subset,distribution="gaussian",n.trees=5000, interaction.depth=4)
+summary.gbm(boost.prices)
+pred.boost=predict(boost.prices,newdata=test.subset,n.trees=5000)
+sqrt(mean((pred.boost-test.subset$house_prices_mean)^2))
+plot(boost.prices,i=5)
+
+#lambda=0.020λ
+set.seed(1)
+boost.prices=gbm(house_prices_mean ~ immun2011+ dwellroom12012+ dwellterraced2012 + breast_2012 + dis2012 + jobs2011,data=train.subset,distribution="gaussian",n.trees=5000,interaction.depth=3, shrinkage = 0.020)
+summary.gbm(boost.prices)
+pred.boost=predict(boost.prices,newdata=test.subset,n.trees=5000)
+sqrt(mean((pred.boost-test.subset$house_prices_mean)^2))
+
+#classification - WITH CARET
+install.packages('caret', dependencies = TRUE)
+library(caret)
+
+set.seed(1)
+fitControl = trainControl(method="cv", number=10, returnResamp = "all")
+model.caret = train(cat1~ immun2011+ dwellroom12012+ dwellterraced2012 + breast_2012 + dis2012 + jobs2011, data=train.subset, method="gbm",distribution="bernoulli", trControl=fitControl, verbose=F, tuneGrid=data.frame(.n.trees=2000, .shrinkage=0.01, .interaction.depth=6, .n.minobsinnode=1))
+
+mPred = predict(model.caret, test.subset, type="class")  ####cccc
+#postResample(mPred, test.subset$cat1)
+confusionMatrix(mPred, test.subset$cat1)
 
