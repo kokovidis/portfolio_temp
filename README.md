@@ -4,7 +4,7 @@ Hello. In this repository you will find all of my relevant coding experience but
 
 In every folder, the readme.md file will give you a brief explanation of the topics covered
 
-In **/research** projects directory, you will find all of my work during my occupation as a research assistant. 
+In '/research' projects directory, you will find all of my work during my occupation as research assistant. 
 
 I invite you to have a look at the folders:  
 
