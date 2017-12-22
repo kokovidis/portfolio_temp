@@ -4,7 +4,7 @@ Hello. In this repository you will find all of my relevant coding experience but
 
 In every folder, the readme.md file will give you a brief explanation of the topics covered
 
-In `/research` projects directory, you will find all of my work during my occupation as research assistant. 
+In `/Research Projects` directory, you will find all of my work during my occupation as research assistant. 
 
 I invite you to have a look at the folders:  
 
@@ -21,7 +21,7 @@ And in `Supervised Learning` folder you will find all the hands-on that I prepar
 
 <hr> </hr>
 
-In `coursework` directory you will find all of my relevant coursework for each course during my studies. 
+In `Coursework` directory you will find all of my relevant coursework for each course during my studies. 
 In directory :   
 
 `/Coursework / Electives / Information Systems Development / 2. Linked data & Data Analytics /`
