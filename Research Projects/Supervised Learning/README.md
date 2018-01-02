@@ -2,7 +2,7 @@ The following scripts, include all the steps from hands-on guides for Machine Le
 
 The scripts accompany slides which they discuss the main rationate behind of every method.
 
-Presentation slides and hands-on slides are available upon request.
+Presentation slides and hands-on slides are available in the `sample_slides_supervised.pdf` .
 
 Our main reference for these presentations were the magnificent book:
 
