@@ -1,14 +1,17 @@
+dataset <-merge(x = dataset_full_2009_2012_ratio , y = cat1, by = "Area.Name", all = TRUE)
 
 dataset <- data.frame(dataset)
 dataset$Area.Name<- NULL
 dataset=na.omit(dataset)
 
+
+start_exec <- Sys.time()
 #################################
 library(glmnet)
 library(caret)
 
 #set seed number
-SNUM=1
+SNUM=15
 set.seed(SNUM)
 
 #set number of folds for Shrinkage methods
@@ -33,7 +36,7 @@ grid=10^seq(10,-2,length=100)
 x= model.matrix(as.formula(EXP) ,dataset)[,-1]
 y= dataset[,ncol(dataset)]
 # CV - DATA PREPARATION
-train=sample(c(TRUE,FALSE), nrow(x) , TRUE, prob=c(0.75,0.25))
+train=sample(c(TRUE,FALSE), nrow(x) , TRUE, prob=c(0.05,0.95))
 test=(!train)
 y.test=y[test]
 
@@ -69,6 +72,7 @@ oneselam=cv.out$lambda.1se
 oneselam
 lasso.pred=predict(lasso.mod,s=oneselam ,newx=x[test,], type="class")
 
+
 confusionMatrix(lasso.pred, y.test)
 
 
@@ -80,4 +84,6 @@ lasso.coef.1se=predict(out,type="coefficients",s=oneselam)[1:NUM+2,]
 lasso.coef.1se[lasso.coef.1se!=0]
 sum(!lasso.coef.1se == 0)
 
-
+##################################
+end_exec <- Sys.time()
+end_exec - start_exec
