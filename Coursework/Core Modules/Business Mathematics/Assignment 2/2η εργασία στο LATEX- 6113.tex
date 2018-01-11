@@ -1,0 +1,300 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage{ucs}
+\usepackage{tabularx}
+\usepackage{paralist}
+
+\usepackage[greek]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+\author{Κοκοβίδης Συμεών 61/13}
+\title{ Τμήμα Οργάνωσης \& Διοίκησης επιχειρήσεων \\ Μαθηματικά για Διοίκηση Επιχειρήσεων Ι \\ Δεύτερη εργασία στο \LaTeX}
+\setlength{\parindent}{0pt} % gia na min dimiourgei esoxes ka8e fora pou allazw 
+\everymath{\displaystyle} % gia na min mikrainei tipota
+\begin{document}
+\maketitle 
+\textbf{{\Large 1 \ Ασκήσεις πάνω στα οικονομικά}}\\\\
+\textbf{Άσκηση 10}\\\\
+
+Η συνάρτηση ζήτησης και προσφοράς ενός αγαθού δίνονται από τους τύπους $Q_d = 150-50lnP$ και $Q_s = 50+ 50lnP$ , όπου $P, Q$ η τιμή και η ποσότητα του προϊόντος.\\
+
+\begin{enumerate}
+\item Να προσδιοριστεί το κοινό πεδίο ορισμού των συναρτήσεων δεδομένου οτι η συνάρτηση ζήτησης πρέπει να είναι φθίνουσα και η συνάρτηση προσφοράς αύξουσα.\\
+\item Να υπολογιστει το σημείο ισορροπίας της αγοράς.\\
+\item Με βάση τη συνάρτηση ζήτησης να υπολογιστει η συνάρτηση εσόδων και να εξετάσετε αν τα έσοδα μεγιστοποιούνται στο σημείο ισορροπίας της αγοράς.\\
+\item Να υπολογιστεί το πλεόνασμα του παραγωγού.\\
+\item Να υπολογιστεί το πλεόνασμα ενός καταναλωτή που είναι διατεθιμένος να πληρώσει έως \euro $e^2$\\
+\end{enumerate} 
+\textbf{Λύση}\\
+\begin{enumerate}
+\item Θα πρέπει να είναι $Q_d> 0, Q_s>0 ,$ $Q_d' <0 $ , $Q_s'>0$ και $P>0$ (I) \\
+Η παράγωγος συνάρτηση της $Q_d$ είναι η $Q_d'=-\frac{50}{P} $ και της $Q_s$ είναι η $Q_s'=\dfrac{50}{P}$ \\\\
+Επομένως θα είναι $-\dfrac{50}{P}<0 \Leftrightarrow -50<P \Leftrightarrow P>-50$ (II),\\ και $ \dfrac{50}{Ρ}>0\Leftrightarrow 50>P \Leftrightarrow P<50 $ (III) \\
+
+Επίσης πρέπει $150-50lnP > 0 \Leftrightarrow 150 > 50 lnP \Leftrightarrow 3 >lnP \Leftrightarrow e^3 > P \Leftrightarrow P< e^3$ \textlatin{(IV)} \\ οπως και $ 50+50lnP >0 \Leftrightarrow 50lnP > -50 \Leftrightarrow lnP > -1 \Leftrightarrow P > e^{-1} $ \textlatin{(VI)} 
+
+Το κοινό πεδίο ορισμού προκύπτει απο τους περιορισμούς Ι, ΙΙ, ΙΙΙ, \textlatin{IV} , \textlatin{VI} 
+και επομένως θα είναι: \\ $ P \in  (e^{-1}, e^3) $\\\\
+\item Το σημείο ισορροπίας βρισκέται με την εξίσωση των συναρτήσεων ζήτησης και προσφοράς δηλαδή: $Q_d=Q_s \Leftrightarrow 150-50lnP = 50+ 50lnP \Leftrightarrow 100 = 100lnP \Leftrightarrow lnP = 1 \Leftrightarrow P=e $\\\\
+Αντικαθιστώντας σε μία απο τις δύο εξισώσεις βρίσκουμε οτι $Q_d|  = Q_s|  = 100$ οπου $Q_d|  , Q_s| $ η ποσότητα ζήτησης και προσφοράς στην ισορροπία.\\
+
+\item Η συνάρτηση εσόδων, στη γενική της μορφή είναι: $TR = P \cdot Q $\\\\
+Με δεδομένη την συνάρτηση  ζήτησης , τότε η συνάρτηση ζήτησης θα είναι: $TR = P \cdot Q_d \Rightarrow (150-50lnP)P \Rightarrow 150P - 50PlnP $\\\\
+Για να βρούμε που μεγιστοποιούνται τα έσοδα θα πρέπει να χρησιμοποιήσουμε το κριτήριο της δεύτερης παραγώγου και επομένως,
+
+$TR' = (150P - 50PlnP)' = 150 - 50P \dfrac{1}{P} + 50lnP = 150 - 50 + 50lnP = 100 + 50lnP  $ , \\
+
+$TR'=0 \Rightarrow 100+ 50lnP =O \Rightarrow lnP = -2 \Rightarrow P= e^{-2} $\\
+
+Που σήμαινει οτι μοναδικό και πιθανό ακρότατο (μέγιστο ή ελάχιστο) είναι η τιμή $P= e^{-2} $ και επομένως η τιμή ισορροπίας δεν μεγιστοποιεί τα κέρδη.\\
+
+\item Το πλεόνασμα του παραγωγού δίνεται απο τον τύπο :
+
+ $ PS=\int\limits_0^{p|} {{q^S}} (p)dp (q) $ όταν ανεξάρτητη μεταβλητή είναι η τιμή, \\με $p|$  την τιμή στην ισορροπία της αγοράς.\\\\
+
+Στη προκειμένη περίπτωση αντικαθιστώντας προκύπτει: \\
+
+$PS=\int\limits_0^e {{\rm{(5}}0 + {\rm{5}}0{\rm{lnp)}}dp{\rm{ }}}  = \int\limits_0^e {{\rm{5}}0dp + {\rm{ }}\int\limits_0^e {{\rm{5}}0{\rm{lnpdp}}} {\rm{ }}}  = [50{\rm{p}}]_0^e + 50\int\limits_0^e {{\rm{lnpdp}}}  = [50{\rm{p}}]_0^e + 50\int\limits_0^e {{\rm{(p)'lnpdp}}}  = [50{\rm{p}}]_0^e + 50[{\rm{plnp  -  }}\int\limits_0^e {{\rm{p(lnp)'dp}}} ] = [50{\rm{p}}]_0^e + 50[{\rm{plnp}} - p]_0^e = 50e - 0 + 50(e - e) - 50(0 - 0) = 50e$\\\\
+
+\item To πλεόνασμα του ενός καταναλωτή ανάλογα με το εφικτό ποσό που μπορει να διαθέσει προκύπτει απο τον τύπο: $CS = \int\limits_{p|}^{(\varepsilon \varphi \iota \kappa \tau o)} {{q^D}} (p)dp$\\
+Αντικαθιστώντας προκύπτει: \\
+
+$CS = \int\limits_e^{{e^2}} {(150 - 50\ln p)} dp = [150p]_e^{{e^2}} - 50\int\limits_e^{{e^2}} {\ln p} dp = [150p]_e^{{e^2}} - 50([p\ln p]_e^{{e^2}} - \int\limits_e^{{e^2}} {p(\ln p} )'dp]) = [150p]_e^{{e^2}} - [50p\ln p]_e^{{e^2}} + [50p]_e^{{e^2}} = 150{e^2} - 150e - 50{e^2}\ln {e^2} + 50e\ln e + 50{e^2} - 50e = 200{e^2} - 50{e^2}\ln {e^2} - 150e = 200{e^2} - 100{e^2}\ln e - 150e = 100{e^2} - 150e$\\\\
+\end{enumerate}
+%--------------------------------------------19--------------%
+
+\textbf{Άσκηση 19}\\
+
+Η συνάρτηση των εσόδων μιας επιχείρησης που παράγει 2 προϊόντα, Α και Β, είναι η: \\
+
+
+\begin{center}
+$TR(q_A,q_B) = -4q_A^2 - 3q_B^2 + 6q_A q_B + 20 q_A - 120 $
+\end{center}
+
+
+'Οπου $q_A,q_B$ οι εβδομαδιαίες ποσότητες παραγωγής των 2 προϊόντων σε τόνους και $R$ τα εβδομαδιαία έσοδα σε χιλιάδες \euro.\\
+
+\begin{enumerate}
+\item Να βρεθεί το επίπεδο παραγωγής που μεγιστοποιεί τα έσοδα της επιχείρησης, καθώς και τα μέγιστα κέρδη.\\
+\item Να βρεθεί το επίπεδο παραγωγής που μεγιστοποιεί τα έσοδα αν οι εβδομαδιαίες ποσότητες παραγωγής πρέπει να ικανοποιούν τον περιορισμό:$10q_A-6q_B+200=0$
+\end{enumerate}
+
+
+\textbf{Λύση}\\
+\begin{enumerate}
+\item Θα βρούμε τις μερικές παραγώγους: \\\\
+ 
+$TR{q_A} = {{\partial TR} \over {\partial {q_A}}} =  - 8{q_A} + 6{q_B} + 20$ , \ \  
+$TR{q_B} = {{\partial TR} \over {\partial {q_B}}} =  - 6{q_B} + 6{q_A}$\\\\
+
+Άρα το ανάδελτα της \textlatin{TR} είναι 
+
+\[\nabla TR = \left\{ {\begin{array}{*{20}{c}}
+{ - 8{q_A} + 6{q_B} + 20}\\
+{ - 6{q_B} + 6{q_A}}
+\end{array}} \right\}\]
+
+Βρίσκοντας και τις δεύτερες μερικές παραγώγους αλλα και παραγωγίζοντας την μερική παράγωγο της μιας ως προς την άλλη μεταβλήτη. \\
+\[TR{q_A}{q_A} = \frac{{{\partial ^2}TR}}{{\partial {q_A}^2}} =  - 8{\rm{ }}{\rm{, \       }}TR{q_B}{q_B} = \frac{{{\partial ^2}TR}}{{\partial {q_B}^2}} =  - 6, \ {\rm{      }}TR{q_A}{q_B} = \frac{{{\partial ^2}TR}}{{\partial {q_A}\partial {q_B}}} = 6\]
+Προκείπτει και η εσσιανή:
+
+\[HTR = \left( {\begin{array}{*{20}{c}}
+{\frac{{{\partial ^2}TR}}{{\partial {q_A}^2}}}&{\frac{{{\partial ^2}TR}}{{\partial {q_A}\partial {q_B}}}}\\
+{\frac{{{\partial ^2}TR}}{{\partial {q_A}\partial {q_B}}}}&{\frac{{{\partial ^2}TR}}{{\partial {q_B}^2}}}
+\end{array}} \right) = \left( {\begin{array}{*{20}{c}}
+{ - 8}&6\\
+6&{ - 6}
+\end{array}} \right)\] \\
+
+\begin{center}
+Εξισώνοντας το ανάδελτα της \textlatin{TR} με μηδέν (Συνθήκες Πρώτης Τάξης)
+\end{center}
+
+\[\nabla TR = 0 \Leftrightarrow \left\{ {\left. {\begin{array}{*{20}{c}}
+{ - 8{q_A} + 6{q_B} + 20 = 0}\\
+{ - 6{q_B} + 6{q_A} = 0}
+\end{array}} \right|} \right. \Rightarrow \left\{ {\left. {\begin{array}{*{20}{c}}
+{ - 8{q_A} + 6{q_B} + 20 = 0}\\
+{6{q_A} = 6{q_B}}
+\end{array}} \right|} \right. \Rightarrow \left\{ {\left. {\begin{array}{*{20}{c}}
+{ - 2{q_A} =  - 20}\\
+{6{q_A} = 6{q_B}}
+\end{array}} \right|} \right.\; \Rightarrow \]
+
+
+\[ \Rightarrow \left\{ {\left. {\begin{array}{*{20}{c}}
+{2{q_A} = 10}\\
+{6{q_A} = 6{q_B}}
+\end{array}} \right|} \right. \Rightarrow \left\{ {\left. {\begin{array}{*{20}{c}}
+{{q_A} = 10}\\
+{{q_B} = 10}
+\end{array}} \right|} \right.\] \\
+
+\begin{center}
+Και βρίσκοντας εάν η εσσιάνη ειναι αρνητική μέσω των ηγετικών κύριων ελάσσονων:\\
+
+$|H_1| =  - 8$ \ \ και $|Η_2| = [(-8) \cdot (-6)] - 6 \cdot 6= 12$, που όντως είναι.\\
+\end{center}
+
+Καταλήγουμε πώς ο συνδιασμός απο 10 τόνους του προϊοντος Α και 10 τόνους του Β, οδηγει στα μέγιστα έσοδα για την επιχείρηση. Αντικαθιστώντας λοιπόν στην αρχική συνάρτηρη εσόδων \textlatin{TR}, $TR(10,10) = -4\cdot10^2 - 3\cdot10^2 + 6\cdot10 \cdot 10 + 20 \cdot 10 - 120 = - 20$, καταλήγουμε πως ποτέ δεν έχει έσοδα αρα και ποτέ δεν εχει κέρδη.\\
+\item Αφού έχουμε περιορισμό, θα δημιουργήσουμε την συνάρτηση \textlatin{Lagrange}: \\
+\begin{center}
+$L({q_A},{q_{B,}}\lambda ) =  - 4q_A^2 - 3q_B^2 + 6{q_A}{q_B} + 20{q_A} - 120 - \lambda ({\rm{1}}0{q_A} - {\rm{6}}{q_B} + {\rm{2}}00)$ 
+\end{center} 
+θα βρούμε το ανάδελτα της \textlatin{L} , των συνδιασμό λύσεων του συστημάτος: $\nabla L = 0 $ και έπειτα μέσω της εσσιανής της \textlatin{L} για το ποιος συνδιασμός λύσεων αποτελεί και τοπικό μέγιστο. Όταν έχω δύο μεταβλητές και έναν περιορισμό στη συνάρτηση \textlatin{Lagrange}, αν η ορίζουσα της \textlatin{HL} $({x_{o,}}{y_o},\lambda )$ είναι θετική τότε έχω τοπικό μέγιστο.
+\end{enumerate}
+\newpage
+%--------------------------------------------5--------------%
+\textbf{{\Large 2 \ Γενικές ασκήσεις}}\\\\
+\textbf{Άσκηση 5}\\\\
+Δίνεται ο πίνακας:
+\[{\rm A} = \left( {\begin{array}{*{20}{c}}
+3&1&2\\
+1&4&{ - 3}\\
+5&{ - 2}&7
+\end{array}} \right)\]
+
+\begin{enumerate}
+\item Να υπολογιστει ο πίνακας $Α^2$
+\item Να εξετάσετε αν τα διανύσματα στήλες του πίνακα Α είναι γραμμικά ανεξάρτητα.
+\item Να λυθεί το σύστημα $Αx=\textbf{0}$ όπου  \textbf{0} = ( 0 0 0 )'\\\\
+\end{enumerate}
+\textbf{Λύση}\\
+\begin{enumerate}
+\item 
+\[A^2=A \cdot A = \left( {\begin{array}{*{20}{c}}
+3&1&2\\
+1&4&{ - 3}\\
+5&{ - 2}&7
+\end{array}} \right)\left( {\begin{array}{*{20}{c}}
+3&1&2\\
+1&4&{ - 3}\\
+5&{ - 2}&7
+\end{array}} \right) = \]\\\\
+\[ = \left( {\begin{array}{*{20}{c}}
+{3 \cdot 3 + 1 \cdot 1 + 2 \cdot 5}&{3 \cdot 1 + 1 \cdot 4 + 2 \cdot ( - 2)}&{3 \cdot 2 + 1 \cdot ( - 3) + 2 \cdot 7}\\
+{1 \cdot 3 + 4 \cdot 1 + ( - 3) \cdot 5}&{1 \cdot 1 + 4 \cdot 4 + ( - 3) \cdot ( - 2)}&{1 \cdot 2 + 4 \cdot ( - 3) + ( - 3) \cdot 7}\\
+{5 \cdot 3 + ( - 2) \cdot 1 + 7 \cdot 5}&{5 \cdot 1 + ( - 2) \cdot 4 + 7 \cdot ( - 2)}&{5 \cdot 2 + ( - 2) \cdot ( - 3) + 7 \cdot 7}
+\end{array}} \right) = \]\\\\
+\[ = \left( {\begin{array}{*{20}{c}}
+{9 + 1 + 10}&{3 + 4 - 4}&{6 - 3 + 14}\\
+{3 + 4 - 15}&{1 + 16 + 6}&{2 - 12 - 21}\\
+{15 - 2 + 35}&{5 - 8 - 14}&{10 + 6 + 49}
+\end{array}} \right) = \left( {\begin{array}{*{20}{c}}
+{20}&3&{17}\\
+{ - 8}&{23}&{ - 31}\\
+{48}&{ - 17}&{65}
+\end{array}} \right)\]
+\\\\
+
+
+\item Για να είναι τα διανύσματα στήλες του πίνακα, γραμμικά ανεξάρτητα θα πρέπει οι στήλες του πίνακα ως διανύσματα: \\
+
+\[{A_1} = \left( {\begin{array}{*{20}{c}}
+3\\
+1\\
+5
+\end{array}} \right),{A_2} = \left( {\begin{array}{*{20}{c}} \ 
+1\\
+4\\
+{ - 2}
+\end{array}} \right),{A_3} = \left( {\begin{array}{*{20}{c}} \ 
+2\\
+{ - 3}\\
+7
+\end{array}} \right)\]
+
+να δίνουν ως μοναδικη λύση το \textbf{ 0} , στο παρακάτω σύστημα:
+$\kappa {A_1} + \lambda {A_2} + \mu {A_3} = 0$\\\\
+
+Άρα έχουμε 
+\[\kappa \left( {\begin{array}{*{20}{c}}
+3\\
+1\\
+5
+\end{array}} \right) + \lambda \left( {\begin{array}{*{20}{c}}
+1\\
+4\\
+{ - 2}
+\end{array}} \right) + \mu \left( {\begin{array}{*{20}{c}}
+2\\
+{ - 3}\\
+7
+\end{array}} \right) = 0 \Rightarrow \left( {\begin{array}{*{20}{c}}
+{3\kappa  + \lambda  + 2\mu }\\
+{\kappa  + 4\lambda  - 3\mu }\\
+{5\kappa  - 2\lambda  + 7\mu }
+\end{array}} \right) = 0 \Rightarrow \left. {\begin{array}{*{20}{c}}
+{3\kappa  + \lambda  + 2\mu  = 0}\\
+{\kappa  + 4\lambda  - 3\mu  = 0}\\
+{5\kappa  - 2\lambda  + 7\mu  = 0}
+\end{array}} \right\}\]
+
+\[\left. {\begin{array}{*{20}{c}}
+{\lambda  =  - 3\kappa  - 2\mu }\\
+{\kappa  + 4\lambda  - 3\mu  = 0}\\
+{5\kappa  - 2\lambda  + 7\mu  = 0}
+\end{array}} \right\}\left. {\begin{array}{*{20}{c}}
+{\lambda  =  - 3\kappa  - 2\mu }\\
+{\kappa  - 12\kappa  - 8\mu  - 3\mu  = 0}\\
+{5\kappa  + 6\kappa  + 4\mu  + 7\mu  = 0}
+\end{array}} \right\}\left. {\begin{array}{*{20}{c}}
+{\lambda  =  - 3\kappa  - 2\mu }\\
+{ - 11\kappa  - 11\mu  = 0}\\
+{11\kappa  + 11\mu  = 0}
+\end{array}} \right\}\left. {\begin{array}{*{20}{c}}
+{\lambda  =  - 3\kappa  - 2\mu }\\
+{ - 11\kappa  = 11\mu }\\
+{11\kappa  =  - 11\mu }
+\end{array}} \right\}\]
+
+\[\left. {\begin{array}{*{20}{c}}
+{\lambda  =  - 3\kappa  - 2\mu }\\
+{\kappa  = \mu }
+\end{array}} \right\}\left. {\begin{array}{*{20}{c}}
+{\lambda  =  - 3\mu  - 2\mu }\\
+{\kappa  = \mu }
+\end{array}} \right\}\left. {\begin{array}{*{20}{c}}
+{\lambda  =  - 5\mu }\\
+{\kappa  = \mu }
+\end{array}} \right\}(\kappa ,\lambda ,\mu ) = (\mu , - 5\mu ,\mu )\]
+\begin{center}
+Επομένως τα διανύσματα, δεν είναι γραμμικά ανεξάρτητα.
+\end{center}
+\item 
+\[{\rm{Ax}} = 0 \Rightarrow \left( {\begin{array}{*{20}{c}}
+3&1&2\\
+1&4&{ - 3}\\
+5&{ - 2}&7
+\end{array}} \right)x = 0 \Rightarrow \left( {\begin{array}{*{20}{c}}
+{3{x_1}}&{1{x_2}}&{2{x_3}}\\
+{1{x_1}}&{4{x_2}}&{ - 3{x_3}}\\
+{5{x_1}}&{ - 2{x_2}}&{7{x_3}}
+\end{array}} \right) = \left( {\begin{array}{*{20}{c}}
+0&0&0
+\end{array}} \right)' \Rightarrow \]\\
+
+\[ \Rightarrow \left( {\begin{array}{*{20}{c}}
+{3{x_1}}&{1{x_2}}&{2{x_3}}\\
+{1{x_1}}&{4{x_2}}&{ - 3{x_3}}\\
+{5{x_1}}&{ - 2{x_2}}&{7{x_3}}
+\end{array}} \right) = \left( {\begin{array}{*{20}{c}}
+0\\
+0\\
+0
+\end{array}} \right) \Rightarrow \left. {\begin{array}{*{20}{c}}
+{3{x_1} + {x_2} + 2{x_3} = 0}\\
+{{x_1} + 4{x_2} - 3{x_3} = 0}\\
+{5{x_1} - 2{x_2} + 7{x_3} = 0}
+\end{array}} \right\}\]\\\\
+
+Επομένως το σύστημα αυτό θα μπορεί να λυθεί με τη μέθοδο \textlatin{Cramer} μιας και ενδεικνύετε για την επίλυση τετραγωνικών συστηματων (3Χ3) αλλα και με άλλους τρόπους, όπως τη μέθοδο \textlatin{Gauss-Jordan}
+\end{enumerate}
+
+\end{document}

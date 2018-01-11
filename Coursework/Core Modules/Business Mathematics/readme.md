@@ -1,0 +1,1 @@
+For the needs of the course, I submitted two optional assignments created with LaTeX. In the folders you will find the corresponding files and the .tex file. Both questions and answers are written in Greek
