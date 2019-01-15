@@ -12,6 +12,9 @@ In addition, we have performed repeated simulations in order to have a robust se
 Then having our new datasets, including only the most descriptive features, we will move to several fitting methods.
 
 ## Methodology
+### Review on proposed methodology.
+The proposed methodology even though it can distinct the most important features, it does not use the most efficient and best performing algorithms for feature selection. XGBoost could be used which generally returns more robust models (features selected).
+
 ### Step 1: Dataset selection
 
 In this first step, we explored the available datasets, measures, dimensions & granularities which can be found in the statistics portal of Scotland. 
