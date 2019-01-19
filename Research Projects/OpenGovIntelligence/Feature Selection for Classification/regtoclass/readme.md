@@ -2,7 +2,7 @@ In this example we will try to compare the mean prices of 2012 with 2011 in orde
 
 * First, we merge the house\_prices\_mean of 2011 & 2012
 * Then we compare the values for each and we characterize each area as UP & DOWN and as binary with 1 & 0
-* And finally perform our lasso algorithm (using glmnet library), transformed for the needs of our binary problem
+* And finally select the most important features with lasso algorithm (using glmnet library), transformed for the needs of our binary problem. Lasso standarizes each value by default.
 
 
 The plots of coefficients and cross-validation, produced from the Lasso can be found below:

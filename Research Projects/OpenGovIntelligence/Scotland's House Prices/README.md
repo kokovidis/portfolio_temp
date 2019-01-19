@@ -13,7 +13,8 @@ Then having our new datasets, including only the most descriptive features, we w
 
 ## Methodology
 ### Review on proposed methodology.
-The proposed methodology even though it can distinct the most important features, it does not use the most efficient and best performing algorithms for feature selection. XGBoost could be used which generally returns more robust models (features selected).
+The proposed methodology even though it can distinct the most important features, it does not use the best performing algorithms for feature selection. XGBoost could be used which generally returns more robust models (features selected). 
+In addition, note that the Lasso algorithm which is mentioned in this case standardizes features by default.
 
 ### Step 1: Dataset selection
 

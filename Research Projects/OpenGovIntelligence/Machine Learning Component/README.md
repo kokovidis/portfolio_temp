@@ -7,6 +7,8 @@ The Machine Learning Component enables the automatic extraction of numerous feat
 
 The future plans, is to embed supervised machine learning methods for classification and regression problems. The interface will give options for advanced users, who will able to determine the proportion of the train and test data for the fitting methods. In addition they will able to determine different prediction accuracy measures.
 
+**Note that Lasso is not the best algorithm to define the most important features. However is a simple algorithm (without many paremeters, and/or without the need of great computational resources) for feature selection.**
+
 ## Example on Statistics Portal of Scotland
 
 The user will select the preferred response among a set of different predictors from various datasets. In addition the user will choose based on availability, the preferred time period (specific year, range of years, quartile of a year and more)
@@ -21,7 +23,7 @@ In the next step a request will be sent and the interface will return the availa
 
 Where the user will choose the desired features as predictors. 
 
-Then the lasso algorithm will be executed.
+Then the lasso algorithm will be executed. **Note that lasso algorithm standardizes the features by default.**
 The user will be able to see an MSE-number of variables plot:
 
 ![lasso2](lasso2.png)

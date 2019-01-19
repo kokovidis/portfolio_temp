@@ -1,5 +1,5 @@
 ## The main scenario
-In this scenario we predict if an area belongs to an Urban Rural Classand more specifically on category 1 (Settlements of 125,000 or more people).  
+In this scenario we predict if an area belongs to an Urban Rural Class and more specifically on category 1 (Settlements of 125,000 or more people).  
 
 [http://www.gov.scot/Topics/Statistics/About/Methodology/UrbanRuralClassification]()) 
 
@@ -9,6 +9,7 @@ The plots of coefficients and cross-validation, produced from the Lasso can be f
 
 
 
+**Note that the Lasso standarizes the features by default.**
 
 By choosing the appropiate lambda and on train data 75% & test data 25%:
 
