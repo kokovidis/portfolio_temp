@@ -1,6 +1,6 @@
 ![ID banner](instacart.png)
 
-In this directory you will find four Jupyter Notebook with data fron [Instcart service](https://www.instacart.com)
+In this directory you will find four Jupyter Notebook with data fron [Instacart service](https://www.instacart.com)
 
 These four notebooks were the main business case of the "Special Topics in Information Systems Ι (ΟΔ710-1)" course taught on [Business Administration school](http://www.uom.gr/index.php?tmima=2&categorymenu=2&newlang=eng) of University of Macedonia. 
 
