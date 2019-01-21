@@ -8,7 +8,7 @@ In `/Research Projects` directory, you will find all of my work during my occupa
 
 I invite you to have a look at the folders:  
 
-1. `Education Material/Instacart Case Study with Python`, where you can find how we can exploit open-source data from Instacart service
+1. `Education Material/Instacart Case Study with Python`, where you can find how we can exploit open-source data from Instacart service.
 
 2. `OpenGovIntelligence/Machine Learning component`, where you will learn more about my contribution to a feature selection tool on the H2020 OpenGovIntelligence project.
 
