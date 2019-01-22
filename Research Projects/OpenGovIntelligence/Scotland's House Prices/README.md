@@ -2,18 +2,16 @@
 
 ## Description of the scenario
 
-The aim of this study is to predict the mean house prices of 2001 data zones in Scotland for 2012. 
-Our datasets are retrieved from the official statistics portal of Scotland: http://statistics.gov.scot/ .
+The aim of this study is to predict the mean house prices of "2001 data zones" in Scotland for 2012. 
+Our datasets are retrieved from the official statistics portal of Scotland: [statistics.gov.scot](statistics.gov.scot) .
 Datasets may refer to the current year (2012) or to recent past years (2009-2011).
-Numerous features have been retrieved, in an exhaustive way, in order to have an abundance of data to estimate our response (mean house prices of 2012).
-Several state-of-the-art machine learning methods have been applied in order to reduce that number of features. 
-In our case Lasso seemed to offer the best results.
-In addition, we have performed repeated simulations in order to have a robust selection of features, not influenced from different sampling methods. 
-Then having our new datasets, including only the most descriptive features, we will move to several fitting methods.
+Numerous features have been retrieved, in order to find the most important for our response (mean house prices of 2012).
+In our case we have Lasso algorithm to achieve this.
+In addition, we have performed repeated simulations in order to have a robust selection of features, not influenced from the different sampling methods. 
 
 ## Methodology
 ### Review on proposed methodology.
-The proposed methodology even though it can distinct the most important features, it does not use the best performing algorithms for feature selection. XGBoost could be used which generally returns more robust models (features selected). 
+The proposed methodology even though it can distinct the most important features, it does not use the best performing algorithms for feature selection. XGBoost could have been used which generally returns more robust models (features selected). 
 In addition, note that the Lasso algorithm which is mentioned in this case standardizes features by default.
 
 ### Step 1: Dataset selection
@@ -31,7 +29,7 @@ Data Zones, which has 6500 observations, is our preferable granularity level.
 
 
 
-In addition, in order to better specify the extent of our scenario we had to introduce some specific criteria for our scenario. By introducing these criteria we would be able to:
+To better specify our scenario we introduced some specific criteria. By introducing these criteria we would be able to:
 
 1.	Avoid any faulty assumptions
 2.	Restrict the bounds of our problem; specify the depth of detail and have a clear timespan

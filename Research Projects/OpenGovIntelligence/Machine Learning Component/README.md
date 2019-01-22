@@ -7,7 +7,7 @@ The Machine Learning Component enables the automatic extraction of numerous feat
 
 The future plans, is to embed supervised machine learning methods for classification and regression problems. The interface will give options for advanced users, who will able to determine the proportion of the train and test data for the fitting methods. In addition they will able to determine different prediction accuracy measures.
 
-**Note that Lasso is not the best algorithm to define the most important features. However is a simple algorithm (without many paremeters, and/or without the need of great computational resources) for feature selection.**
+**Note that Lasso is not the best algorithm to define the most important features. However, is a simple algorithm (without many paremeters, and/or without the need of great computational resources) for feature selection.**
 
 ## Example on Statistics Portal of Scotland
 

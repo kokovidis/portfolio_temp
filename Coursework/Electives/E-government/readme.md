@@ -1,18 +1,22 @@
-For the project of E-government we have created a model to describe any greek public body.
+For the project of E-government we have created a model to define the attributes that can describe any greek public body.
 
-A problem-based project, where we had the chance through weekly meetings to contribute to a wider project.
+A problem-based project, where we had the chance through weekly meetings to contribute to research project H2020 OpenGovIntelligence.
 
-The final report (35 pages - in Greek language), after an extensive research on files regarding public bodies in Greece and other countries, concludes that a public body, can consist of five main categories of attributes. These are:
+After scraping different documents regarding the public bodies in Greece and other countries, we conclude that a public body, can consist of five main categories of attributes. These are:
 
-1. The public body 
-2. Area of supervision
-3. Geograhpic base of public body
-4. Thematic categorization
-5. Legal form
+__1. The public body (name, contact details, etc.)__
+
+__2. Area of supervision__
+
+__3. Geograhpic base of public body__
+
+__4. Thematic categorization__
+
+__5. Legal form__
 
 After an exhaustive discussion we came up with several attributes for each category.
 
-For Administrative categorization we concluded on:
+For the public body category we defined the following:
 
 * Abbreviation
 * Form date
@@ -27,7 +31,7 @@ For Administrative categorization we concluded on:
 * Assesed by
 * Special comments
 
-For Area of Supervision
+For Area of Supervision the:
 
 * Address
 * Postal Code
@@ -35,7 +39,7 @@ For Area of Supervision
 * Municipality
 * Town
 
-For Geograhpic base of public body
+For the Geograhpic base of public body:
 
 * Town
 * Address
@@ -45,8 +49,8 @@ For Geograhpic base of public body
 * State
 
 
-For Thematic categorization we concluded into a signle attribute and 12 main categories, based on categorization of other countries such as the UK, Sweden and the US. Partial examples are: Public order, Justice, Education, Transportation, Economy.
+Where for the Thematic categorization we concluded into a single attribute with 12 possible values. We based the attributes on examples of other countries such as the UK, Sweden and the US. Partial examples are the: Public order, Justice, Education, Transportation, Economy.
 
-For Legal form we have collected all the possible legal form that a public body in Greece can have (21 types). 
+For the Legal Form we have collected all the possible legal form that a public body in Greece can have (21 types). 
 These include the legal bodies of public law, charities, SCE, Limited Companies, SA and others.
 

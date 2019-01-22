@@ -1,4 +1,4 @@
-In this project we will try to apply feature selection methods for classification problems.
+In this project we apply feature selection methods for classification problems.
 
 For our dataset (450 ratio variables - every dataset can be found on each folder) we study two classification problems:
 
