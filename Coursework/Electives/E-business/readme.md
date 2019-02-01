@@ -1,4 +1,4 @@
-The purpose of this study is to integrate the pre-existing catalog of a brick-and-mortar bookstore to a web store. The aim is to offer the same functionalities but under the services of an online web store, which can operate in parallel with the physical store.
+The purpose of this study is to integrate the catalog of a brick-and-mortar bookstore to a web store. The aim is to offer the same functionalities but under the services of an online web store, which can operate in parallel with the physical store.
 
 In this study, we demonstrate, step by step, how an online book store can be set up, based on our “University of Macedonia Press” store.
 We will use the open source Prestashop bundle and for the needs of this study and we host our web store, in a virtual web server.
