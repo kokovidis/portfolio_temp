@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+
+font name: Cabin-Regular
+font link: https://fonts.google.com/specimen/Cabin
+font author: Impallari Type
+font author site: www.impallari.com
+
+icon designer: Wagner Veloso
+icon designer link: /wagveloso
+        
+{"bg":"#002C73","icon":"#FFD009","font":"#ffffff"}
+      
