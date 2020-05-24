@@ -11,24 +11,39 @@ In every folder, the readme.md file will give you a brief explanation of the con
 <table>
 <thead>
   <tr>
-    <th>Projects</th>
-    <th rowspan="2"><a href="https://github.com/kokovidis/portfolio/tree/master/Research%20Projects/Educational%20Material/Instacart%20Case%20Study%20with%20Python" target="_blank" rel="noopener noreferrer">Instacart</a><br><a href="https://github.com/kokovidis/portfolio/tree/master/Research%20Projects/Educational%20Material/Instacart%20Case%20Study%20with%20Python" target="_blank" rel="noopener noreferrer">EDA 1</a></th>
-    <th rowspan="2">Instacart<br>EDA 2</th>
-    <th rowspan="2">Instacart<br>EDA 3</th>
-    <th rowspan="2">Instacart<br>EDA 4</th>
-    <th rowspan="2">Instacart<br>Predictive 1</th>
-    <th rowspan="2">Instacart<br>Predictive 2</th>
-    <th rowspan="2">Automobile <br>Strategy <br>Report</th>
-    <th rowspan="2">Employee<br>Attrition</th>
-    <th rowspan="2">Movie <br>Recommendation <br>Systems</th>
-    <th rowspan="2">Labelling Yelp's<br>Restaurant <br>Reviews<br></th>
-    <th rowspan="2">Spotify<br>Streaming<br>Data<br></th>
-  </tr>
-  <tr>
-    <td>Packages</td>
+    <th></th>
+    <th colspan="11">Projects</th>
   </tr>
 </thead>
 <tbody>
+  <tr>
+    <td></td>
+    <td><a href="https://github.com/kokovidis/portfolio/tree/master/Research%20Projects/Educational%20Material/Instacart%20Case%20Study%20with%20Python" target="_blank" rel="noopener noreferrer">Instacart</a><br><a href="https://github.com/kokovidis/portfolio/tree/master/Research%20Projects/Educational%20Material/Instacart%20Case%20Study%20with%20Python" target="_blank" rel="noopener noreferrer">EDA 1</a></td>
+    <td>Instacart<br>EDA 2</td>
+    <td>Instacart<br>EDA 3</td>
+    <td>Instacart<br>EDA 4</td>
+    <td>Instacart<br>Predictive 1</td>
+    <td>Instacart<br>Predictive 2</td>
+    <td>Automobile <br>Strategy <br>Report</td>
+    <td>Employee<br>Attrition</td>
+    <td>Movie <br>Recommendation <br>Systems</td>
+    <td>Labelling Yelp's<br>Restaurant <br>Reviews<br></td>
+    <td>Spotify<br>Streaming<br>Data<br></td>
+  </tr>
+  <tr>
+    <td>Packages</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
   <tr>
     <td>Pandas</td>
     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</td>
@@ -157,6 +172,7 @@ In every folder, the readme.md file will give you a brief explanation of the con
   </tr>
 </tbody>
 </table>
+
 
 
 * R: dplyr, ggplot2, caret, glmnet, effects
