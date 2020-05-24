@@ -1,0 +1,218 @@
+Code,Area Name,County type,Country Code
+GB-BKM,Buckinghamshire,two-tier county,ENG
+GB-CAM,Cambridgeshire,two-tier county,ENG
+GB-CMA,Cumbria,two-tier county,ENG
+GB-DBY,Derbyshire,two-tier county,ENG
+GB-DEV,Devon,two-tier county,ENG
+GB-DOR,Dorset,two-tier county,ENG
+GB-ESX,East Sussex,two-tier county,ENG
+GB-ESS,Essex,two-tier county,ENG
+GB-GLS,Gloucestershire,two-tier county,ENG
+GB-HAM,Hampshire,two-tier county,ENG
+GB-HRT,Hertfordshire,two-tier county,ENG
+GB-KEN,Kent,two-tier county,ENG
+GB-LAN,Lancashire,two-tier county,ENG
+GB-LEC,Leicestershire,two-tier county,ENG
+GB-LIN,Lincolnshire,two-tier county,ENG
+GB-NFK,Norfolk,two-tier county,ENG
+GB-NYK,North Yorkshire,two-tier county,ENG
+GB-NTH,Northamptonshire,two-tier county,ENG
+GB-NTT,Nottinghamshire,two-tier county,ENG
+GB-OXF,Oxfordshire,two-tier county,ENG
+GB-SOM,Somerset,two-tier county,ENG
+GB-STS,Staffordshire,two-tier county,ENG
+GB-SFK,Suffolk,two-tier county,ENG
+GB-SRY,Surrey,two-tier county,ENG
+GB-WAR,Warwickshire,two-tier county,ENG
+GB-WSX,West Sussex,two-tier county,ENG
+GB-WOR,Worcestershire,two-tier county,ENG
+GB-LND,"London, City of",city corporation,ENG
+GB-BDG,Barking and Dagenham,London borough,ENG
+GB-BNE,Barnet,London borough,ENG
+GB-BEX,Bexley,London borough,ENG
+GB-BEN,Brent,London borough,ENG
+GB-BRY,Bromley,London borough,ENG
+GB-CMD,Camden,London borough,ENG
+GB-CRY,Croydon,London borough,ENG
+GB-EAL,Ealing,London borough,ENG
+GB-ENF,Enfield,London borough,ENG
+GB-GRE,Greenwich,London borough,ENG
+GB-HCK,Hackney,London borough,ENG
+GB-HMF,Hammersmith and Fulham,London borough,ENG
+GB-HRY,Haringey,London borough,ENG
+GB-HRW,Harrow,London borough,ENG
+GB-HAV,Havering,London borough,ENG
+GB-HIL,Hillingdon,London borough,ENG
+GB-HNS,Hounslow,London borough,ENG
+GB-ISL,Islington,London borough,ENG
+GB-KEC,Kensington and Chelsea,London borough,ENG
+GB-KTT,Kingston upon Thames,London borough,ENG
+GB-LBH,Lambeth,London borough,ENG
+GB-LEW,Lewisham,London borough,ENG
+GB-MRT,Merton,London borough,ENG
+GB-NWM,Newham,London borough,ENG
+GB-RDB,Redbridge,London borough,ENG
+GB-RIC,Richmond upon Thames,London borough,ENG
+GB-SWK,Southwark,London borough,ENG
+GB-STN,Sutton,London borough,ENG
+GB-TWH,Tower Hamlets,London borough,ENG
+GB-WFT,Waltham Forest,London borough,ENG
+GB-WND,Wandsworth,London borough,ENG
+GB-WSM,Westminster,London borough,ENG
+GB-BNS,Barnsley,metropolitan district,ENG
+GB-BIR,Birmingham,metropolitan district,ENG
+GB-BOL,Bolton,metropolitan district,ENG
+GB-BRD,Bradford,metropolitan district,ENG
+GB-BUR,Bury,metropolitan district,ENG
+GB-CLD,Calderdale,metropolitan district,ENG
+GB-COV,Coventry,metropolitan district,ENG
+GB-DNC,Doncaster,metropolitan district,ENG
+GB-DUD,Dudley,metropolitan district,ENG
+GB-GAT,Gateshead,metropolitan district,ENG
+GB-KIR,Kirklees,metropolitan district,ENG
+GB-KWL,Knowsley,metropolitan district,ENG
+GB-LDS,Leeds,metropolitan district,ENG
+GB-LIV,Liverpool,metropolitan district,ENG
+GB-MAN,Manchester,metropolitan district,ENG
+GB-NET,Newcastle upon Tyne,metropolitan district,ENG
+GB-NTY,North Tyneside,metropolitan district,ENG
+GB-OLD,Oldham,metropolitan district,ENG
+GB-RCH,Rochdale,metropolitan district,ENG
+GB-ROT,Rotherham,metropolitan district,ENG
+GB-SHN,St. Helens,metropolitan district,ENG
+GB-SLF,Salford,metropolitan district,ENG
+GB-SAW,Sandwell,metropolitan district,ENG
+GB-SFT,Sefton,metropolitan district,ENG
+GB-SHF,Sheffield,metropolitan district,ENG
+GB-SOL,Solihull,metropolitan district,ENG
+GB-STY,South Tyneside,metropolitan district,ENG
+GB-SKP,Stockport,metropolitan district,ENG
+GB-SND,Sunderland,metropolitan district,ENG
+GB-TAM,Tameside,metropolitan district,ENG
+GB-TRF,Trafford,metropolitan district,ENG
+GB-WKF,Wakefield,metropolitan district,ENG
+GB-WLL,Walsall,metropolitan district,ENG
+GB-WGN,Wigan,metropolitan district,ENG
+GB-WRL,Wirral,metropolitan district,ENG
+GB-WLV,Wolverhampton,metropolitan district,ENG
+GB-BAS,Bath and North East Somerset,unitary authority,ENG
+GB-BDF,Bedford,unitary authority,ENG
+GB-BBD,Blackburn with Darwen,unitary authority,ENG
+GB-BPL,Blackpool,unitary authority,ENG
+GB-BMH,Bournemouth,unitary authority,ENG
+GB-BRC,Bracknell Forest,unitary authority,ENG
+GB-BNH,Brighton and Hove,unitary authority,ENG
+GB-BST,"Bristol, City of",unitary authority,ENG
+GB-CBF,Central Bedfordshire,unitary authority,ENG
+GB-CHE,Cheshire East,unitary authority,ENG
+GB-CHW,Cheshire West and Chester,unitary authority,ENG
+GB-CON,Cornwall,unitary authority,ENG
+GB-DAL,Darlington,unitary authority,ENG
+GB-DER,Derby,unitary authority,ENG
+GB-DUR,Durham County,unitary authority,ENG
+GB-ERY,East Riding of Yorkshire,unitary authority,ENG
+GB-HAL,Halton,unitary authority,ENG
+GB-HPL,Hartlepool,unitary authority,ENG
+GB-HEF,Herefordshire,unitary authority,ENG
+GB-IOW,Isle of Wight,unitary authority,ENG
+GB-IOS,Isles of Scilly,unitary authority,ENG
+GB-KHL,Kingston upon Hull,unitary authority,ENG
+GB-LCE,Leicester,unitary authority,ENG
+GB-LUT,Luton,unitary authority,ENG
+GB-MDW,Medway,unitary authority,ENG
+GB-MDB,Middlesbrough,unitary authority,ENG
+GB-MIK,Milton Keynes,unitary authority,ENG
+GB-NEL,North East Lincolnshire,unitary authority,ENG
+GB-NLN,North Lincolnshire,unitary authority,ENG
+GB-NSM,North Somerset,unitary authority,ENG
+GB-NBL,Northumberland,unitary authority,ENG
+GB-NGM,Nottingham,unitary authority,ENG
+GB-PTE,Peterborough,unitary authority,ENG
+GB-PLY,Plymouth,unitary authority,ENG
+GB-POL,Poole,unitary authority,ENG
+GB-POR,Portsmouth,unitary authority,ENG
+GB-RDG,Reading,unitary authority,ENG
+GB-RCC,Redcar and Cleveland,unitary authority,ENG
+GB-RUT,Rutland,unitary authority,ENG
+GB-SHR,Shropshire,unitary authority,ENG
+GB-SLG,Slough,unitary authority,ENG
+GB-SGC,South Gloucestershire,unitary authority,ENG
+GB-STH,Southampton,unitary authority,ENG
+GB-SOS,Southend-on-Sea,unitary authority,ENG
+GB-STT,Stockton-on-Tees,unitary authority,ENG
+GB-STE,Stoke-on-Trent,unitary authority,ENG
+GB-SWD,Swindon,unitary authority,ENG
+GB-TFW,Telford and Wrekin,unitary authority,ENG
+GB-THR,Thurrock,unitary authority,ENG
+GB-TOB,Torbay,unitary authority,ENG
+GB-WRT,Warrington,unitary authority,ENG
+GB-WBK,West Berkshire,unitary authority,ENG
+GB-WIL,Wiltshire,unitary authority,ENG
+GB-WNM,Windsor and Maidenhead,unitary authority,ENG
+GB-WOK,Wokingham,unitary authority,ENG
+GB-YOR,York,unitary authority,ENG
+GB-ANN,Antrim and Newtownabbey,district,NIR
+GB-AND,Ards and North Down,district,NIR
+GB-ABC,"Armagh City, Banbridge and Craigavon",district,NIR
+GB-BFS,Belfast,district,NIR
+GB-CCG,Causeway Coast and Glens,district,NIR
+GB-DRS,Derry City and Strabane,district,NIR
+GB-FMO,Fermanagh and Omagh,district,NIR
+GB-LBC,Lisburn and Castlereagh,district,NIR
+GB-MEA,Mid and East Antrim,district,NIR
+GB-MUL,Mid Ulster,district,NIR
+GB-NMD,"Newry, Mourne and Down",district,NIR
+GB-ABE,Aberdeen City,council area,SCT
+GB-ABD,Aberdeenshire,council area,SCT
+GB-ANS,Angus,council area,SCT
+GB-AGB,Argyll and Bute,council area,SCT
+GB-CLK,Clackmannanshire,council area,SCT
+GB-DGY,Dumfries and Galloway,council area,SCT
+GB-DND,Dundee City,council area,SCT
+GB-EAY,East Ayrshire,council area,SCT
+GB-EDU,East Dunbartonshire,council area,SCT
+GB-ELN,East Lothian,council area,SCT
+GB-ERW,East Renfrewshire,council area,SCT
+GB-EDH,"Edinburgh, City of",council area,SCT
+GB-ELS,Eilean Siar,council area,SCT
+GB-FAL,Falkirk,council area,SCT
+GB-FIF,Fife,council area,SCT
+GB-GLG,Glasgow City,council area,SCT
+GB-HLD,Highland,council area,SCT
+GB-IVC,Inverclyde,council area,SCT
+GB-MLN,Midlothian,council area,SCT
+GB-MRY,Moray,council area,SCT
+GB-NAY,North Ayrshire,council area,SCT
+GB-NLK,North Lanarkshire,council area,SCT
+GB-ORK,Orkney Islands,council area,SCT
+GB-PKN,Perth and Kinross,council area,SCT
+GB-RFW,Renfrewshire,council area,SCT
+GB-SCB,"Scottish Borders, The",council area,SCT
+GB-ZET,Shetland Islands,council area,SCT
+GB-SAY,South Ayrshire,council area,SCT
+GB-SLK,South Lanarkshire,council area,SCT
+GB-STG,Stirling,council area,SCT
+GB-WDU,West Dunbartonshire,council area,SCT
+GB-WLN,West Lothian,council area,SCT
+GB-BGW,Blaenau Gwent,unitary authority,WLS
+GB-BGE,Bridgend [Pen-y-bont ar Ogwr GB-POG],unitary authority,WLS
+GB-CAY,Caerphilly [Caerffili GB-CAF],unitary authority,WLS
+GB-CRF,Cardiff [Caerdydd GB-CRD],unitary authority,WLS
+GB-CMN,Carmarthenshire [Sir Gaerfyrddin GB-GFY],unitary authority,WLS
+GB-CGN,Ceredigion [Sir Ceredigion],unitary authority,WLS
+GB-CWY,Conwy,unitary authority,WLS
+GB-DEN,Denbighshire [Sir Ddinbych GB-DDB],unitary authority,WLS
+GB-FLN,Flintshire [Sir y Fflint GB-FFL],unitary authority,WLS
+GB-GWN,Gwynedd,unitary authority,WLS
+GB-AGY,Isle of Anglesey [Sir Ynys Môn GB-YNM],unitary authority,WLS
+GB-MTY,Merthyr Tydfil [Merthyr Tudful GB-MTU],unitary authority,WLS
+GB-MON,Monmouthshire [Sir Fynwy GB-FYN],unitary authority,WLS
+GB-NTL,Neath Port Talbot [Castell-nedd Port Talbot GB-CTL],unitary authority,WLS
+GB-NWP,Newport [Casnewydd GB-CNW],unitary authority,WLS
+GB-PEM,Pembrokeshire [Sir Benfro GB-BNF],unitary authority,WLS
+GB-POW,Powys,unitary authority,WLS
+GB-RCT,"Rhondda, Cynon, Taff [Rhondda, Cynon, Taf]",unitary authority,WLS
+GB-SWA,Swansea [Abertawe GB-ATA],unitary authority,WLS
+GB-TOF,Torfaen [Tor-faen],unitary authority,WLS
+GB-VGL,"Vale of Glamorgan, The [Bro Morgannwg GB-BMG]",unitary authority,WLS
+GB-WRX,Wrexham [Wrecsam GB-WRC],unitary authority,WLS

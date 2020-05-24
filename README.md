@@ -2,17 +2,21 @@
 
 Hello. In this repository you will find all of my experience in Data Science.
 
-In every folder, the readme.md file will give you a brief explanation of the topics that are covered.
+In every folder, the readme.md file will give you a brief explanation of the context, the framework and the topics that were covered.
 
 **Skill-set**  
 
+* Python: 
+	* pandas
+	* matplotlib, seaborn
+	* scikit-learn
+	* xgboost
 
 
-* Python: pandas, numpy, scipy, matplotlib, seaborn, scikit, tensorflow, sqlite, xgboost
 * R: dplyr, ggplot2, caret, glmnet, effects
-* Statistics & Mathematics: Linear Regression, Choice Models, Bayesian Inference, 
-* Machine Learning:
-* Other Tools: SQL, 
+
+
+* Other Tools: SQL
 
 In `/Research Projects` directory, you will find all of my work during my occupation as a Research Assistant. 
 

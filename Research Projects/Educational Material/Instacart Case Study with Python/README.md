@@ -10,6 +10,8 @@ The features that have been created in these kernels will be used on the sequent
 
 All the available Jyputer Notebooks are hosted on my Kaggle account: [Symeon Kokovidis Kernels](http://kaggle.com/kokovidis/kernels)
 
+The answers of weekly assignments are available upon request
+
 ---
 
 _The data that have been used in these notebooks come from the “The Instacart Online Grocery Shopping Dataset 2017”, Accessed from [https://www.instacart.com/datasets/grocery-shopping-2017](https://www.instacart.com/datasets/grocery-shopping-2017)

@@ -1,0 +1,2 @@
+### Group Courswork
+The coursework gave us the opportunity to apply all these skills in a Machine Learning pipeline with the Employee Attrition dataset of IBM. On our project, we performed an exploratory data analysis in millenials sub-group. In addition, we created an XGBoost Classification Model which predicts whether a millennial employee will stay or leave the company.
