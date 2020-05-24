@@ -13,8 +13,7 @@ In every folder, the readme.md file will give you a brief explanation of the con
 
 * R: dplyr, ggplot2, caret, glmnet, effects
 
-
-* Other Tools: SQL
+* Other Tools: Unix, Docker, Tableau, Power BI, SQL
 
 In `/Research Projects` directory, you will find all of my work during my occupation as a Research Assistant. 
 
