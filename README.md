@@ -7,7 +7,6 @@ In every folder, the readme.md file will give you a brief explanation of the con
 **Skill-set**  
 
 * Python: 
-
 <table style="undefined;table-layout: fixed; width: 936px">
 <colgroup>
 <col style="width: 80px">
@@ -49,7 +48,7 @@ In every folder, the readme.md file will give you a brief explanation of the con
   <tr>
     <td rowspan="6">Python</td>
     <td>Pandas</td>
-    <td>✓</td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</td>
     <td></td>
     <td></td>
     <td></td>
@@ -133,7 +132,6 @@ In every folder, the readme.md file will give you a brief explanation of the con
   </tr>
 </tbody>
 </table>
-
 * R: dplyr, ggplot2, caret, glmnet, effects
 
 
