@@ -7,21 +7,22 @@ In every folder, the readme.md file will give you a brief explanation of the con
 **Skill-set**  
 
 * Python: 
-<table style="undefined;table-layout: fixed; width: 1292px">
+
+<table style="undefined;table-layout: fixed; width: 936px">
 <colgroup>
 <col style="width: 80px">
-<col style="width: 104px">
-<col style="width: 85px">
-<col style="width: 85px">
-<col style="width: 85px">
-<col style="width: 86px">
-<col style="width: 86px">
-<col style="width: 86px">
-<col style="width: 111px">
-<col style="width: 111px">
-<col style="width: 111px">
-<col style="width: 111px">
-<col style="width: 151px">
+<col style="width: 84px">
+<col style="width: 60px">
+<col style="width: 60px">
+<col style="width: 60px">
+<col style="width: 61px">
+<col style="width: 61px">
+<col style="width: 61px">
+<col style="width: 72px">
+<col style="width: 64px">
+<col style="width: 107px">
+<col style="width: 96px">
+<col style="width: 70px">
 </colgroup>
 <thead>
   <tr>
@@ -33,11 +34,11 @@ In every folder, the readme.md file will give you a brief explanation of the con
     <th rowspan="2">Instacart<br>EDA 4</th>
     <th rowspan="2">Instacart<br>Predictive 1</th>
     <th rowspan="2">Instacart<br>Predictive 2</th>
-    <th rowspan="2">Automobile <br>Strategy Report</th>
+    <th rowspan="2">Automobile <br>Strategy <br>Report</th>
     <th rowspan="2">Employee<br>Attrition</th>
     <th rowspan="2">Movie <br>Recommendation <br>Systems</th>
-    <th rowspan="2">Labelling <br>Yelp Restaurant <br>Reviews<br></th>
-    <th rowspan="2">Spotify Sreaming Data<br></th>
+    <th rowspan="2">Labelling Yelp's<br>Restaurant <br>Reviews<br></th>
+    <th rowspan="2">Spotify<br>Streaming<br>Data<br></th>
   </tr>
   <tr>
     <td>Language</td>
