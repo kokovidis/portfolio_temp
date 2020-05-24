@@ -7,27 +7,7 @@ In every folder, the readme.md file will give you a brief explanation of the con
 **Skill-set**  
 
 * Python: 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#aaa;border-spacing:0;}
-.tg td{background-color:#fff;border-color:#aaa;border-style:solid;border-width:1px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#f38630;border-color:#aaa;border-style:solid;border-width:1px;color:#fff;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-fef0{background-color:#cd9934;text-align:center;vertical-align:middle}
-.tg .tg-ycr8{background-color:#ffffff;text-align:left;vertical-align:top}
-.tg .tg-t2jn{background-color:#32cb00;text-align:left;vertical-align:top}
-.tg .tg-1o19{background-color:#67fd9a;text-align:left;vertical-align:top}
-.tg .tg-emdq{background-color:#cd9934;text-align:left;vertical-align:top}
-.tg .tg-mk0i{background-color:#cd9934;text-align:left;vertical-align:middle}
-.tg .tg-fd62{background-color:#32cb00;text-align:left;vertical-align:top}
-.tg .tg-nrix{text-align:center;vertical-align:middle}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-ty86{background-color:#67fd9a;text-align:left;vertical-align:top}
-.tg .tg-pnt8{background-color:#FCFBE3;text-align:center;vertical-align:middle}
-.tg .tg-dg7a{background-color:#FCFBE3;text-align:left;vertical-align:top}
-.tg .tg-yq6s{background-color:#FCFBE3;text-align:center;vertical-align:top}
-</style>
-<table class="tg" style="undefined;table-layout: fixed; width: 1292px">
+<table style="undefined;table-layout: fixed; width: 1292px">
 <colgroup>
 <col style="width: 80px">
 <col style="width: 104px">
@@ -45,114 +25,113 @@ In every folder, the readme.md file will give you a brief explanation of the con
 </colgroup>
 <thead>
   <tr>
-    <th class="tg-ycr8">﻿</th>
-    <th class="tg-emdq">Projects</th>
-    <th class="tg-fef0" rowspan="2"><a href="https://github.com/kokovidis/portfolio/tree/master/Research%20Projects/Educational%20Material/Instacart%20Case%20Study%20with%20Python" target="_blank" rel="noopener noreferrer">Instacart</a><br><a href="https://github.com/kokovidis/portfolio/tree/master/Research%20Projects/Educational%20Material/Instacart%20Case%20Study%20with%20Python" target="_blank" rel="noopener noreferrer">EDA 1</a></th>
-    <th class="tg-mk0i" rowspan="2">Instacart<br>EDA 2</th>
-    <th class="tg-mk0i" rowspan="2">Instacart<br>EDA 3</th>
-    <th class="tg-mk0i" rowspan="2">Instacart<br>EDA 4</th>
-    <th class="tg-mk0i" rowspan="2">Instacart<br>Predictive 1</th>
-    <th class="tg-mk0i" rowspan="2">Instacart<br>Predictive 2</th>
-    <th class="tg-mk0i" rowspan="2">Automobile <br>Strategy Report</th>
-    <th class="tg-mk0i" rowspan="2">Employee<br>Attrition</th>
-    <th class="tg-mk0i" rowspan="2">Movie <br>Recommendation <br>Systems</th>
-    <th class="tg-mk0i" rowspan="2">Labelling <br>Yelp Restaurant <br>Reviews<br></th>
-    <th class="tg-mk0i" rowspan="2">Spotify Sreaming Data<br></th>
+    <th>﻿</th>
+    <th>Projects</th>
+    <th rowspan="2"><a href="https://github.com/kokovidis/portfolio/tree/master/Research%20Projects/Educational%20Material/Instacart%20Case%20Study%20with%20Python" target="_blank" rel="noopener noreferrer">Instacart</a><br><a href="https://github.com/kokovidis/portfolio/tree/master/Research%20Projects/Educational%20Material/Instacart%20Case%20Study%20with%20Python" target="_blank" rel="noopener noreferrer">EDA 1</a></th>
+    <th rowspan="2">Instacart<br>EDA 2</th>
+    <th rowspan="2">Instacart<br>EDA 3</th>
+    <th rowspan="2">Instacart<br>EDA 4</th>
+    <th rowspan="2">Instacart<br>Predictive 1</th>
+    <th rowspan="2">Instacart<br>Predictive 2</th>
+    <th rowspan="2">Automobile <br>Strategy Report</th>
+    <th rowspan="2">Employee<br>Attrition</th>
+    <th rowspan="2">Movie <br>Recommendation <br>Systems</th>
+    <th rowspan="2">Labelling <br>Yelp Restaurant <br>Reviews<br></th>
+    <th rowspan="2">Spotify Sreaming Data<br></th>
   </tr>
   <tr>
-    <td class="tg-t2jn">Language</td>
-    <td class="tg-t2jn">Packages</td>
+    <td>Language</td>
+    <td>Packages</td>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-fd62" rowspan="6">Python</td>
-    <td class="tg-1o19">Pandas</td>
-    <td class="tg-nrix">✓</td>
-    <td class="tg-nrix"></td>
-    <td class="tg-nrix"></td>
-    <td class="tg-nrix"></td>
-    <td class="tg-nrix"></td>
-    <td class="tg-nrix"></td>
-    <td class="tg-0lax">✓</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
+    <td rowspan="6">Python</td>
+    <td>Pandas</td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-ty86">Matplotlib</td>
-    <td class="tg-pnt8"></td>
-    <td class="tg-pnt8"></td>
-    <td class="tg-pnt8"></td>
-    <td class="tg-pnt8"></td>
-    <td class="tg-pnt8"></td>
-    <td class="tg-pnt8"></td>
-    <td class="tg-dg7a"></td>
-    <td class="tg-dg7a"></td>
-    <td class="tg-dg7a"></td>
-    <td class="tg-dg7a"></td>
-    <td class="tg-dg7a"></td>
+    <td>Matplotlib</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-1o19">Seaborn</td>
-    <td class="tg-nrix"></td>
-    <td class="tg-nrix">✓</td>
-    <td class="tg-nrix"></td>
-    <td class="tg-nrix"></td>
-    <td class="tg-nrix">✓</td>
-    <td class="tg-nrix"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
+    <td>Seaborn</td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-ty86">Scikit-Learn</td>
-    <td class="tg-pnt8"></td>
-    <td class="tg-pnt8"></td>
-    <td class="tg-pnt8"></td>
-    <td class="tg-pnt8"></td>
-    <td class="tg-pnt8"></td>
-    <td class="tg-pnt8"></td>
-    <td class="tg-dg7a"></td>
-    <td class="tg-dg7a"></td>
-    <td class="tg-dg7a"></td>
-    <td class="tg-dg7a"></td>
-    <td class="tg-dg7a"></td>
+    <td>Scikit-Learn</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-1o19">XGBoost</td>
-    <td class="tg-nrix"></td>
-    <td class="tg-nrix"></td>
-    <td class="tg-nrix"></td>
-    <td class="tg-nrix"></td>
-    <td class="tg-nrix"></td>
-    <td class="tg-nrix"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
+    <td>XGBoost</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-ty86">Apache Spark<br>(PySpark)</td>
-    <td class="tg-yq6s"></td>
-    <td class="tg-yq6s"></td>
-    <td class="tg-yq6s"></td>
-    <td class="tg-yq6s"></td>
-    <td class="tg-yq6s"></td>
-    <td class="tg-yq6s">✓</td>
-    <td class="tg-dg7a"></td>
-    <td class="tg-dg7a"></td>
-    <td class="tg-dg7a"></td>
-    <td class="tg-dg7a"></td>
-    <td class="tg-dg7a"></td>
+    <td>Apache Spark<br>(PySpark)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
 </tbody>
 </table>
-
 
 * R: dplyr, ggplot2, caret, glmnet, effects
 
