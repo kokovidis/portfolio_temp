@@ -7,25 +7,10 @@ In every folder, the readme.md file will give you a brief explanation of the con
 **Skill-set**  
 
 * Python: 
-<table style="undefined;table-layout: fixed; width: 936px">
-<colgroup>
-<col style="width: 80px">
-<col style="width: 84px">
-<col style="width: 60px">
-<col style="width: 60px">
-<col style="width: 60px">
-<col style="width: 61px">
-<col style="width: 61px">
-<col style="width: 61px">
-<col style="width: 72px">
-<col style="width: 64px">
-<col style="width: 107px">
-<col style="width: 96px">
-<col style="width: 70px">
-</colgroup>
+
+<table>
 <thead>
   <tr>
-    <th>﻿</th>
     <th>Projects</th>
     <th rowspan="2"><a href="https://github.com/kokovidis/portfolio/tree/master/Research%20Projects/Educational%20Material/Instacart%20Case%20Study%20with%20Python" target="_blank" rel="noopener noreferrer">Instacart</a><br><a href="https://github.com/kokovidis/portfolio/tree/master/Research%20Projects/Educational%20Material/Instacart%20Case%20Study%20with%20Python" target="_blank" rel="noopener noreferrer">EDA 1</a></th>
     <th rowspan="2">Instacart<br>EDA 2</th>
@@ -40,28 +25,27 @@ In every folder, the readme.md file will give you a brief explanation of the con
     <th rowspan="2">Spotify<br>Streaming<br>Data<br></th>
   </tr>
   <tr>
-    <td>Language</td>
     <td>Packages</td>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="6">Python</td>
     <td>Pandas</td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</td>
+    <td><span style="font-weight:400;font-style:normal">&nbsp;&nbsp;&nbsp;&nbsp;✓</span></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</td>
+    <td><span style="font-weight:400;font-style:normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</span></td>
+    <td><span style="font-weight:400;font-style:normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</span></td>
     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</td>
+    <td><span style="font-weight:400;font-style:normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</span></td>
+    <td><span style="font-weight:400;font-style:normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</span></td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td>✓</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td><span style="font-weight:400;font-style:normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</span></td>
   </tr>
   <tr>
     <td>Matplotlib</td>
+    <td><span style="font-weight:400;font-style:normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</span></td>
     <td></td>
     <td></td>
     <td></td>
@@ -71,22 +55,21 @@ In every folder, the readme.md file will give you a brief explanation of the con
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
-    <td></td>
+    <td><span style="font-weight:400;font-style:normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</span></td>
   </tr>
   <tr>
     <td>Seaborn</td>
-    <td></td>
-    <td>✓</td>
-    <td></td>
-    <td></td>
-    <td>✓</td>
+    <td><span style="font-weight:400;font-style:normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</span></td>
+    <td><span style="font-weight:400;font-style:normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</span></td>
     <td></td>
     <td></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</td>
     <td></td>
     <td></td>
+    <td><span style="font-weight:400;font-style:normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</span></td>
     <td></td>
     <td></td>
+    <td><span style="font-weight:400;font-style:normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</span></td>
   </tr>
   <tr>
     <td>Scikit-Learn</td>
@@ -95,12 +78,12 @@ In every folder, the readme.md file will give you a brief explanation of the con
     <td></td>
     <td></td>
     <td></td>
+    <td><span style="font-weight:400;font-style:normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</span></td>
+    <td><span style="font-weight:400;font-style:normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</span></td>
+    <td><span style="font-weight:400;font-style:normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</span></td>
     <td></td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td><span style="font-weight:400;font-style:normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</span></td>
   </tr>
   <tr>
     <td>XGBoost</td>
@@ -109,12 +92,12 @@ In every folder, the readme.md file will give you a brief explanation of the con
     <td></td>
     <td></td>
     <td></td>
+    <td><span style="font-weight:400;font-style:normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</span></td>
+    <td><span style="font-weight:400;font-style:normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</span></td>
+    <td><span style="font-weight:400;font-style:normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</span></td>
     <td></td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td><span style="font-weight:400;font-style:normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</span></td>
   </tr>
   <tr>
     <td>Apache Spark<br>(PySpark)</td>
@@ -123,15 +106,59 @@ In every folder, the readme.md file will give you a brief explanation of the con
     <td></td>
     <td></td>
     <td></td>
-    <td>✓</td>
     <td></td>
     <td></td>
     <td></td>
+    <td><span style="font-weight:400;font-style:normal">            ✓</span></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight:400;font-style:normal">✓</span></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Snorkel</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td><span style="font-weight:400;font-style:normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓</span></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Flask (API)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight:400;font-style:normal">✓</span></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>MLFlow</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight:400;font-style:normal">✓</span></td>
     <td></td>
     <td></td>
   </tr>
 </tbody>
 </table>
+
+
 * R: dplyr, ggplot2, caret, glmnet, effects
 
 
