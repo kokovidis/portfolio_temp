@@ -8,9 +8,9 @@ The course syllabus of the course can found on this link: [Special Topics in Inf
 
 The features that have been created in these kernels will be used on the sequential course "Special Topics in Information Systems ΙI (ΟΔ0806-1)" to create predictive models. The draft syllabus of the course can be found here: [Special Topics in Information Systems II EN](https://docs.google.com/document/d/1Wq4XQW1vdIm5qK327s6uLRJo0ZPrKng1gPOwNd1MbN8/edit?usp=sharing).
 
-All the available Jyputer Notebooks are hosted on my Kaggle account: [Symeon Kokovidis Kernels](http://kaggle.com/kokovidis/kernels)
+All the available Jyputer Notebooks are also hosted on my Kaggle account: [Symeon Kokovidis Kernels](http://kaggle.com/kokovidis/kernels)
 
-The answers of weekly assignments are available upon request
+The answers of the weekly assignments are available upon request.
 
 ---
 
